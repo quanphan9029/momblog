@@ -1,0 +1,108 @@
+
+
+header {
+    height: 300px;
+    background-image: url("image/dark-winter-forest-Wallpaper-Images-number-ADx.jpg");  
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+    background-color: #786fa6;
+
+}
+
+/* Navigation Bar */
+.container {
+    background-color: whitesmoke;
+}
+.nav-wrapper {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;   
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+}
+
+.nav-wrapper > .nav-bar > div {
+    display: flex;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    width: 100%; 
+    padding: 14px 16px;
+}
+
+.nav-link-wrapper a {
+    color: #778beb;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+.nav-link-wrapper:hover {
+    background-color: #546de5;
+    color: white;
+}
+.nav-link-wrapper:hover > a {
+    color: white;
+}
+
+.nav-link-wrapper:active {
+    background-color: #546de5;
+}
+
+.nav-link-wrapper a:active {
+    color: white;
+}
+
+.nav-link-wrapper a:hover {
+    color: white;
+}
+
+
+/* Body content */
+.content {
+    height: 100%;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+.content-col {
+    height: 100%;
+    background-color: white;
+    margin-top: 10px;
+    border: 5px solid rgb(192, 156, 252);
+}
+
+/*
+.left-col, .right-col {
+    height: 100%;
+    background-color: #546de5;
+}
+*/
+/* Article Post */
+.post-content {
+    margin: 10px;
+}
+
+.article {
+    margin: 40px;
+}
+
+/* Category List */
+.category-list {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
