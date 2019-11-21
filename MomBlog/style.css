@@ -104,5 +104,30 @@ body {
 /* Category List */
 .category-list {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.category-item {
+   font-size: 24px;
+   background-color: #f1f2f6;
+   border-bottom: 0.5px solid black;
+   margin-bottom: 5px;
+   border-radius: 5px;
+   padding: 20px;
+}
+
+.category-item a {
+    padding: 20px;
+    width: 100%;
+    text-decoration: none;
+    color: #e056fd;
+}
+
+.category-item:hover  {
+    background-color: #e056fd;
+    color: white;
+}
+
+.category-item a:hover {
+    color: white;
 }
